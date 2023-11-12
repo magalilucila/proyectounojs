@@ -4,28 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <title>Simulador cruceros all inclusive MLR</title>
+        <title>Bienvenido a Cruceros MLR</title>
         
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap" rel="stylesheet">
     </head>
 <body>
-    <h1>Bienvenido al simulador de Crucero</h1>
-    <p>Te brindamos el viaje de tu sueños adaptado a tu presupuesto</p>
+<h1>Bienvenido a Cruceros MLR</h1>
+    <p>El lugar donde podes elegir  el viaje de tus sueños según tu presupuesto</p>
     <div id="contenedor"></div>
-    <button id="calcular">Calcular</button>
+    <button id="calcular" type="submit">Calcular</button>
     <div id="resultado"></div>
     
     <div id="contenedorDestino"></div>
+
+    <div id="itinerarios" ></div>
     
-    <ul id="itinerarios-argentina-brasil" class="lista-itinerarios"></ul>    
-    <ul id="itinerarios-europa" class="lista-itinerarios"></ul>
-    <ul id="itinerarios-caribe" class="lista-itinerarios"></ul>
-    
-    <div id="detalle-itinerario"></div>
-    <script src="js/script.js"></script>
+
+   
+    <main class="Root">
+        <section id="itinerario"></section>
+    </main>
+    <div id="resultadoFinal"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="js/script.js"></script>
 </body>
 </html> 
-

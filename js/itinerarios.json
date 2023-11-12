@@ -1,0 +1,71 @@
+{"total": 7,
+    "itinerarios":[
+          {
+            "codigo": "101",
+            "destino": "Argentina/Brasil",
+            "descripcion": "Buenos Aires, Argentina- Rio de Janeiro, Brasil- Ilha do mel, Brasil- Balneario Camboriú, Brasil- Buenos Aires, Argentina",
+            "fechaSalida": "20 Diciembre 2023",
+            "fechaRegreso": "10 Enero 2024",
+            "duracionViaje": "21 días y 19 noches",
+            "puertoEmbarque": "Buenos Aires, Argentina",
+            "precio": 100000
+          },
+          {
+            "codigo": "102",
+            "destino": "Argentina/Brasil",
+            "descripcion": "Buenos Aires, Argentina- Paranagua, Brasil- Itajai, Brasil- Santos, Brasil- Rios de Janeiro, Brasil- Buenos Aires, Argentina",
+            "fechaSalida": "10 Enero 2024",
+            "fechaRegreso": "4 Febrero 2024",
+            "duracionViaje": "25 Días y 23 noches",
+            "puertoEmbarque": "Buenos Aires, Argentina",
+            "precio": 150000
+          },
+          {
+            "codigo": "103",
+            "destino": "Argentina/Brasil",
+            "descripcion": "Buenos Aires, Argentina- Ilhabela, Brasil- Buzios, Brasil- Rio de Janeiro, Brasil- Buenos Aires, Argentina",
+            "fechaSalida": "01 Febrero 2023",
+            "fechaRegreso": "24 Febrero 2023",
+            "duracionViaje": "23 Días y 21 Noches",
+            "puertoEmbarque": "Buenos Aires, Argentina",
+            "precio": 200000
+          },
+          {
+            "codigo": "104",
+            "destino": "Europa",
+            "descripcion": "Génova, Italia- Marsella, Francia- Barcelona, España",
+            "fechaSalida": "01 Enero 2024",
+            "fechaRegreso": "20 Enero 2024",
+            "duracionViaje": "19 días y 17 noches",
+            "puertoEmbarque": "Génova, Italia- Marsella",
+            "precio": 300000
+          },
+          {"codigo": "105",
+            "destino": "Europa",
+            "descripcion": "Valencia, España- Alicante, España- Marsella, Francia- Génova, Italia- Funchal, Portugal",
+            "fechaSalida": "15 Febrero 2024",
+            "fechaRegreso": "28 Febrero 2024",
+            "duracionViaje": "13 Días y 11 noches",
+            "puertoEmbarque": "Valencia, España- Alicante",
+            "precio": 500000
+          },
+          {"codigo": "106",
+            "destino": "Caribe",
+            "descripcion": "Miami, Florida- Nassau, Las Bahamas- Falmouth, Jamaica- Miami, Florida",
+            "fechaSalida": "10 Enero 2024",
+            "fechaRegreso": "25 Enero 2024",
+            "duracionViaje": "15 días y 13 noches",
+            "puertoEmbarque": "Miami, Florida- Nassau",
+            "precio": 250000
+          },
+          {
+            "codigo": "107",
+            "destino": "Caribe",
+            "descripcion": "Miami, Florida- CocoCay, Las Bahamas- Nassau, Las Bahamas- Labadee, Haití- Miami, Florida",
+            "fechaSalida": "6 Febrero 2024",
+            "fechaRegreso": "22 Febrero 2024",
+            "duracionViaje": "16 Días y 14 noches",
+            "puertoEmbarque": "Miami, Florida- CocoCay",
+            "precio": 300000
+          }
+    ]}

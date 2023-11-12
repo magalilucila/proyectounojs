@@ -22,22 +22,35 @@ h1 {
     color: #235B8C;
 }
 
+label {
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 11, 89);;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight:900;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 11, 89);;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
 p {
     display: flex;
     justify-content: center;
-    color: #235B8C;
+    color: rgb(11, 11, 89);;
     margin-bottom: 10px;
     font-size: 15px;
     font-weight:900;
 }
 
-button {
-    margin: 10px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-}
+
 
 #contenedor {
     display: flex;
@@ -50,8 +63,10 @@ button {
 
 #resultado {
     align-self: center;
+    white-space: pre-line;
     background-color: #0056b3;
     color: #fff;
+    border: 1px solid rgb(10, 10, 79);
     font-size: 20px;
     margin: 20px;
 }
@@ -65,21 +80,16 @@ button {
     align-self: center;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-}
+
 
 #calcular {
+    display: flex;
+    align-self: center;
     background-color: #235B8C;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -87,16 +97,55 @@ ul {
     background-color: #0056b3;
 }
 
+
+
 .itinerario-button {
-    background-color: #007bff;
-    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    color: rgb(11, 11, 89);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 10px;
-}
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 
 .itinerario-button:hover {
-    background-color: #0056b3;
+    background-color: #6289b2;
 }
+
+#resultadoFinal{
+align-self: center;
+white-space: pre-line;
+background-color: #0056b3;
+color: #fff;
+font-size: 20px;
+margin: 20px;
+}
+
+.container {
+display: flex;
+flex-wrap: nowrap;
+align-self: center;
+background-color: #0056b3;
+color: #fff;
+font-size: 20px;
+margin: 20px;
+}
+
+.toastify {
+    background-color: rgb(14, 14, 87);
+    color: #fff;
+    position: fixed;
+  }
+  
+  .toastify .toastify-content {
+    margin-bottom: 10px;
+    white-space: pre-line;
+  }
+
+
